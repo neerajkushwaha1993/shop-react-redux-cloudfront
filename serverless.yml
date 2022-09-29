@@ -19,7 +19,7 @@ plugins:
 
 custom:
   client:
-    bucketName: my-store-app
+    bucketName: my-store-app-react-redux-cloudfront
     distributionFolder: dist
   s3BucketName: ${self:custom.client.bucketName}
 
